@@ -1,102 +1,20 @@
-# Serverless Benthos Project Skeleton
+# test
 
-[![GitHub Actions](https://github.com/makenew/serverless-benthos/workflows/main/badge.svg)](https://github.com/makenew/serverless-benthos/actions)
+[![GitHub Actions](https://github.com/usingh83/benthos-test/workflows/main/badge.svg)](https://github.com/usingh83/benthos-test/actions)
 
-Package skeleton for a Benthos Serverless project on AWS Lambda.
+test
 
 ## Description
 
-Bootstrap a new Benthos Serverless project in five minutes or less.
-
-### Features
-
-- Deploy [Benthos] to [AWS Lambda] with [Serverless].
-- Unlimited, modular, and testable configs packaged with [Blobpack].
-- [Node.js]'s [npm] package structure.
-- [Prettier] code.
-- Continuous testing and deployment with [GitHub Actions].
-- [Keep a CHANGELOG].
-- Consistent coding with [EditorConfig].
-
-[Benthos]: https://www.benthos.dev/
-[Blobpack]: https://github.com/razor-x/blobpack
-[AWS Lambda]: https://aws.amazon.com/lambda/
-[EditorConfig]: https://editorconfig.org/
-[GitHub Actions]: https://github.com/features/actions
-[Keep a CHANGELOG]: https://keepachangelog.com/
-[Node.js]: https://nodejs.org/
-[Prettier]: https://prettier.io/
-[Serverless]: https://serverless.com/
-[npm]: https://www.npmjs.com/
-
-### Bootstrapping a new project
-
-1. Create an empty (**non-initialized**) repository on GitHub.
-2. Clone the master branch of this repository with
-   ```
-   $ git clone --single-branch git@github.com:makenew/serverless-benthos.git <new-benthos-app>
-   $ cd <new-benthos-app>
-   ```
-   Optionally, reset to the latest version with
-   ```
-   $ git reset --hard <version-tag>
-   ```
-3. Run
-   ```
-   $ ./makenew.sh
-   ```
-   This will replace the boilerplate, delete itself,
-   remove the git remote, remove upstream tags,
-   and stage changes for commit.
-4. Create the required GitHub repository secrets.
-5. Review, commit, and push the changes to GitHub with
-   ```
-   $ git diff --cached
-   $ git commit -m "Replace makenew boilerplate"
-   $ git remote add origin git@github.com:<user>/<new-benthos-app>.git
-   $ git push -u origin master
-   ```
-6. Ensure the GitHub action passes,
-   then release the initial version with
-   ```
-   $ nvm install
-   $ npm install
-   $ npm version patch
-   ```
-
-### Updating from this skeleton
-
-If you want to pull in future updates from this skeleton,
-you can fetch and merge in changes from this repository.
-
-Add this as a new remote with
-
-```
-$ git remote add upstream git@github.com:makenew/serverless-benthos.git
-```
-
-You can then fetch and merge changes with
-
-```
-$ git fetch --no-tags upstream
-$ git merge upstream/master
-```
-
-#### Changelog for this skeleton
-
-Note that `CHANGELOG.md` is just a template for this skeleton.
-The actual changes for this project are documented in the commit history
-and summarized under [Releases].
-
-[Releases]: https://github.com/makenew/serverless-benthos/releases
+TODO
 
 ## Development and Testing
 
 ### Quickstart
 
 ```
-$ git clone https://github.com/makenew/serverless-benthos.git
-$ cd serverless-benthos
+$ git clone https://github.com/usingh83/benthos-test.git
+$ cd lambda
 $ nvm install
 $ npm install
 $ npm test
@@ -116,10 +34,10 @@ The [source code] is hosted on GitHub.
 Clone the project with
 
 ```
-$ git clone git@github.com:makenew/serverless-benthos.git
+$ git clone git@github.com:usingh83/benthos-test.git
 ```
 
-[source code]: https://github.com/makenew/serverless-benthos
+[source code]: https://github.com/usingh83/benthos-test
 
 ### Requirements
 
@@ -172,7 +90,7 @@ Serverless deployment is triggered by a release repository_dispatch on GitHub Ac
 
 Deployment may be triggered using a [release workflow_dispatch on GitHub Actions].
 
-[release workflow_dispatch on GitHub Actions]: https://github.com/makenew/serverless-benthos/actions?query=workflow%3Arelease
+[release workflow_dispatch on GitHub Actions]: https://github.com/usingh83/benthos-test/actions?query=workflow%3Arelease
 
 ## GitHub Actions
 
@@ -209,7 +127,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/makenew/serverless-benthos/fork).
+1. Fork it (https://github.com/usingh83/benthos-test/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).

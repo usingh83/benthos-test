@@ -1,7 +1,7 @@
 {
-  "name": "@makenew/serverless-benthos",
-  "version": "4.3.1",
-  "description": "Package skeleton for a Benthos Serverless project on AWS Lambda.",
+  "name": "test",
+  "version": "0.0.0",
+  "description": "test",
   "private": true,
   "type": "module",
   "main": "index.js",
@@ -10,13 +10,13 @@
   "keywords": [
     "benthos"
   ],
-  "homepage": "https://github.com/makenew/serverless-benthos",
-  "bugs": "https://github.com/makenew/serverless-benthos/issues",
-  "repository": "makenew/serverless-benthos",
+  "homepage": "https://github.com/usingh83/benthos-test",
+  "bugs": "https://github.com/usingh83/benthos-test/issues",
+  "repository": "usingh83/benthos-test",
   "license": "MIT",
   "author": {
-    "name": "Evan Sosenko",
-    "email": "razorx@evansosenko.com"
+    "name": "uday singh",
+    "email": "kanwarudaysingh@gmail.com"
   },
   "files": [
     "config",
